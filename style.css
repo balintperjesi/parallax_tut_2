@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+section {
+    height: 300px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.parallax {
+    height: 400px;
+}
+
+section div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.parallax:nth-child(1) {
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/2019-audi-q3-mmp-1532447254.jpg);
+}
+
+.parallax:nth-child(3) {
+    background-image: url(https://cdn.vox-cdn.com/uploads/chorus_image/image/62865132/216716_New_Volvo_XC40_exterior.0.jpg);
+}
+
+.parallax {
+    background-size: 110%;
+    background-position: center;
+}
